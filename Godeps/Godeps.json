@@ -1,0 +1,11 @@
+{
+	"ImportPath": "github.com/jackc/pgx_notify_lost_connection",
+	"GoVersion": "go1.3.1",
+	"Deps": [
+		{
+			"ImportPath": "github.com/jackc/pgx",
+			"Comment": "v2.3.0-16-g3d8cf58",
+			"Rev": "3d8cf58b4c18e85fac4e146645e09413b647928f"
+		}
+	]
+}
