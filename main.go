@@ -41,8 +41,6 @@ func main() {
 func extractConfig() pgx.ConnConfig {
 	var config pgx.ConnConfig
 
-	config.KeepAlive = 5
-
 	config.Host = os.Getenv("DB_HOST")
 	if config.Host == "" {
 		config.Host = "localhost"
